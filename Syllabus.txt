@@ -1,0 +1,1 @@
+1.To implement HTML styling using inline , internal ,and External CSS to demonstrate selector precedence and basic styling properties
