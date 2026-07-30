@@ -1,0 +1,17 @@
+body{
+        border-radius: 15%;
+   /* background-color: rgb(77, 233, 227); */
+    text-align: center;
+    justify-content: center ;
+   align-items: center;
+    padding: 20px;
+}
+div{
+     margin-left: 150px ;
+     margin-right: 150px;
+     border-radius: 10%;
+    border: solid black 5px;
+    background-color: rgb(115, 223, 233);
+    height: 300px;
+    padding-top: 50px;
+}
