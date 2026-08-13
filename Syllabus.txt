@@ -1,1 +1,5 @@
 1.To implement HTML styling using inline , internal ,and External CSS to demonstrate selector precedence and basic styling properties
+
+2. To implement client-side form validation using javascript to handle empty field , email formatting and real time error messages
+
+3.to implement a basic functional  calculator application using html css javascritpt event listners for arithmetic operations

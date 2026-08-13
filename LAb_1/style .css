@@ -1,9 +1,81 @@
-.main{
-    border-radius: 15%;
-   background-color: rgb(77, 233, 227);
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main2 {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    width: 350px;
     text-align: center;
-    justify-content: center ;
-    margin-left: 500px;
-    margin-right: 500px;
-    padding: 20px;
+}
+
+.main2 h1 {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.main2 input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.main2 input:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.3);
+}
+
+.main2 div,
+.main2 br + text {
+    color: #555;
+    font-size: 15px;
+}
+
+.main2 button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.main2 button:hover {
+    background-color: #388E3C;
+    transform: scale(1.03);
+}
+
+.main2 button:active {
+    transform: scale(0.98);
 }

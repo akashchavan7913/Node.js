@@ -1,0 +1,17 @@
+body{
+    border: 1px solid black;
+    border-radius: 10%;
+    margin: 25px;
+    width: 200px;
+    height: 250px;
+    margin-left: 100px;
+    /* background-color: gray; */
+}
+button{
+    margin: 1px;
+    width: 40px;
+    margin-top: 2px;
+    border: 1px solid gray;
+    border-radius: 15%;
+    background-color: bisque;
+}
