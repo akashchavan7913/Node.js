@@ -1,40 +1,44 @@
-console.log("hiii")
+console.log("=")
 function count()
-{
-    var str=document.getElementById("inputdata").value;
-    var spl=str.toLowerCase().split("")
-    var counta = 0 ,counte = 0, counti = 0,counto = 0, countu = 0;
-    for( var i=0;i<spl.length;i++)
-    {
-        if(spl[i]=="a")
-        {
-            counta++;
-        }
-        if(spl[i]=="e")
-        {
-            counte++;
-        }
-        if(spl[i]=="i")
-        {
-            counti++;
-        }
-        if(spl[i]=="o")
-        {
-            counto++;
-        }
-        if(spl[i]=="u")
-        {
-            countu++;
+{    var str=document.getElementById("inputData").value;
+    alert("str=====>"+str)
+    var strToArray=str.toLowerCase().split("")
+    console.log(strToArray);
+    var count=0;
+    var count_A=0, count_E=0, count_I=0, count_O=0, count_U=0;
+    for(var i=0;i<strToArray.length; i++)
+    {        if(strToArray[i] == 'a' || strToArray[i] == 'e' || strToArray[i] == 'i' || strToArray[i] == 'o' ||strToArray[i] == 'u' )
+        {            count++;
         }
     }
-    console.log("vowel count of A  = "+counta)
-    console.log("vowel count of E = "+counte)
-    console.log("vowel count of I = "+counti)
-    console.log("vowel count of O = "+counto)
-    console.log("vowel count of U = "+countu)
-    document.getElementById("result").
-}
-function result()
-{
-
+    for(var i=0;i<strToArray.length; i++)
+    {        if(strToArray[i] == 'a')
+        {            count_A++;
+        }
+        if(strToArray[i] == 'e')
+        {            count_E++;
+        }
+        if(strToArray[i] == 'i')
+        {            count_I++;
+        }
+        if(strToArray[i] == 'o')
+        {            count_O++;
+        }
+        if(strToArray[i] == 'u')
+        {
+            count_U++;
+        }
+    }
+    console.log("Total vowels count:"+ count);
+    console.log("Total A count:"+ count_A);
+    console.log("Total E count:"+ count_E);
+    console.log("Total I count:"+ count_I);
+    console.log("Total O count:"+ count_O);
+    console.log("Total U count:"+ count_U);
+    document.getElementById("result").innerHTML ="<p>Total vowels count: " + count + "</p>" +
+        "<p>Total A count: " + count_A + "</p>" +
+        "<p>Total E count: " + count_E + "</p>" +
+        "<p>Total I count: " + count_I + "</p>" +
+        "<p>Total O count: " + count_O + "</p>" +
+        "<p>Total U count: " + count_U + "</p>";
 }
